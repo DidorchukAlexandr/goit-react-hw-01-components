@@ -11,7 +11,6 @@ import {
   StatLabel,
   StatQuantity,
 } from './Profile.styled';
-
 export default function User({ avatar, username, tag, location, stats }) {
   return (
     <ProfileCard>

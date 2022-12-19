@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { Table } from './TransactionHistory.styled';
-
 export default function TransactionHistory({ items = [] }) {
   return (
     <Table>

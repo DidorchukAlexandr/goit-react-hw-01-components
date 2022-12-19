@@ -7,7 +7,6 @@ import {
   Label,
   Percentage,
 } from './Statistics.styled';
-
 export default function Statistics({ title = 'Upload stats', stats = [] }) {
   return (
     <StatContainer>
